@@ -69,7 +69,6 @@ li{
 }
 
 section{
-   
     background-color: rgb(0, 0, 0);
     text-align: center;
 
@@ -85,8 +84,8 @@ main{
 .nome{
     color: #ffffff;
     font-size: 2em;
-    margin-top: -10px;
-    margin-bottom: -10px;
+    margin-top: -8px;
+    margin-bottom: -8px;
 }
 
 .text{
