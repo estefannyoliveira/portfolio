@@ -35,8 +35,6 @@ header{
     padding: 4px;
     border-radius: 20px;
     font-size: 1.2em;
-
-
 }
 
 .espaco{
@@ -46,44 +44,32 @@ header{
 nav{
     display: flex;
     justify-content: space-around;
-    
-  
     align-items: center;
- 
-
 }
 
 .nav-list{
     display: flex;
     list-style: none;
-
-
 }
 .mobile-menu{
     cursor: pointer;
-    
-
 }
 .mobile-menu div{
     width: 32px;
     height: 2px;
     background-color: white;
     margin: 8px 5px;
-
-  
 }
 ul{
     list-style: none;
     display: flex;
-
 }
 li{
     margin-left: 32px;
-
 }
 
 section{
-    height: 100vw;
+   
     background-color: rgb(0, 0, 0);
     text-align: center;
 
@@ -92,20 +78,21 @@ section{
     flex-direction: column;
     align-items: center;
     align-content: center;
-    
 }
-
+main{
+    margin-top: 40px;
+}
 .nome{
     color: #ffffff;
     font-size: 2em;
-    margin-top: -3px;
+    margin-top: -10px;
+    margin-bottom: -10px;
 }
 
-
-.info{
+.text{
     text-align: left;
-    margin-top: 40px;
     color: #BCB6B6;
+    margin-bottom: 15px;
 }
 
 .subtitulo{
@@ -186,6 +173,9 @@ a{
 @media (max-width: 999px) {
     body{
         overflow: hidden;
+    }
+    .contato-pc{
+        display: none;
     }
    .nav-list{
         position: absolute;

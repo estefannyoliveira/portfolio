@@ -11,7 +11,12 @@
     }
 
     .logo{
-        margin: auto;
+        margin-left: 40px;
+        margin-top: 3px;
+        width: 200px;
+        background-color: #000000;
+        font-size: 1.5em;
+        text-transform: uppercase;
 
         
     }
@@ -25,8 +30,106 @@
     .espaco{
         display: none;
     }
+/*mudanças para tela de PC*/
 
-    .info{
-        text-align: left;
-    }
+header{
+    font-size: 1.2em;
+    text-align: justify;
+
+    margin-top: 0;
+}
+nav{
+    display: inline-flex; 
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-list {
+    position: absolute;
+    right: 10px;
+    margin-right: 40px;
+}
+
+li:hover{
+    color: #070707;
+   
+    font-size: 1.3em;
+    transition: all .4s ease-in-out;
+    
+}
+
+
+main{
+    margin-top: 0;
+    display:flex;
+    width: 100vw;
+    height: 500px;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+ section img{
+    display: flex;
+    margin: auto; 
+    width: 400px;
+    border-radius: 55px;
+    box-shadow: 51px 43px 1px  #720AC3;
+
+}
+ .info{
+  margin-right: 60px;
+    display: flex;
+    flex-direction: column;
+    
+ }
+ .ola{
+    margin-bottom: -5px;
+ }
+ .text{
+    margin: 10px 0px;
+ }
+ .nome{
+    color: #ffffff;
+    font-size: 3em;
+}
+
+ .contato{
+    display: none;
+}
+.contato-pc{
+    text-align: left;
+}
+
+.btn{
+    width: 400px;
+}
+.btn:hover{
+    width: 400px;
+    padding: 8px 0px; 
+    font-size: 1.4em;
+    background-color:#720AC3;
+    color: #ffffff;
+    transition: all .3s;
+}
+.btn-contato{
+    width: 187px;
+}
+
+#git:hover{
+    width: 197px;
+    padding: 8px;
+    color: #720AC3;
+    background-color: #ffffff;
+    font-size: 1.1em;
+    transition: all .2s;
+}
+#linkedin:hover{
+    width: 197px;
+    padding: 8px;
+    color: #720AC3;
+    background-color: #ffffff;
+    font-size: 1.1em;
+    transition: all .2s;
+}
+
+
 }

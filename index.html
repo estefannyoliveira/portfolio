@@ -25,7 +25,7 @@
                 </div>
                 <ul class="nav-list">
                     <li>
-                        <a href="">PROJETOS</a>
+                        <a href="" >PROJETOS</a>
                     </li>
                     <li>
                         <a href="">FORMAÇÃO</a>
@@ -39,16 +39,32 @@
         </header>
         <main>
             <div class="info">
-                <h2>Olá, meu nome é</h2>
-                <h1 class="nome">Estefanny Oliveira</h1>
-                <h2 class="subtitulo">Desenvolvedora FrontEnd</h2>
+                <div class="text">
+                    <h2 class="ola">Olá, meu nome é</h2>
+                    <h1 class="nome">Estefanny Oliveira</h1>
+                    <h2 class="subtitulo">Desenvolvedora FrontEnd</h2>
+                </div>
+                
+                <div class ="contato-pc">
+                    <a href="#" class="btn">Currículo</a>
+                    <a href="#" class="btn-contato" id="linkedin">LINKEDIN</a>
+                    <a href="#" class="btn-contato" id="git">GITHUB</a>
+                </div>
             </div>
 
-            <img src="imagens/imagem-site.png" alt="Construção de site">
-            
-            <a href="#" class="btn">Currículo</a>
-            <a href="#" class="btn-contato" id="linkedin">LINKEDIN</a>
-            <a href="#" class="btn-contato" id="git">GITHUB</a>
+            <picture>
+                <source media="(max-width: 992px )" srcset="imagens/imagem-site.png" type="image/png">
+                <img src="imagens/foto de perfil.png" alt="Foto de Estefanny Oliveira">
+            </picture>
+
+            <div class="contato">
+                <a href="#" class="btn">Currículo</a>
+                <div class="social">
+                    <a href="#" class="btn-contato" id="linkedin">LINKEDIN</a>
+                    <a href="#" class="btn-contato" id="git">GITHUB</a>
+                </div>
+            </div>
+
         </main>
     </section>
     <script src="mobile.navbar.js"></script>
