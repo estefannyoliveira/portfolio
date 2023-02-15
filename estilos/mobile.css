@@ -11,7 +11,8 @@
 }
 
 body, html{
-    height: 100%;
+    height: 100vh;
+    width: 100vw;
     /*
     teste para ver se o site para de quebrar ao virar a tela
     height: 100vw;*/

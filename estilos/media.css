@@ -90,6 +90,7 @@ main{
  .nome{
     color: #ffffff;
     font-size: 3em;
+    font-weight: 800;
 }
 
  .contato{
@@ -111,11 +112,11 @@ main{
     transition: all .3s;
 }
 .btn-contato{
-    width: 187px;
+    width: 200px;
 }
 
 #git:hover{
-    width: 197px;
+    width: 205px;
     padding: 8px;
     color: #720AC3;
     background-color: #ffffff;
@@ -123,7 +124,7 @@ main{
     transition: all .2s;
 }
 #linkedin:hover{
-    width: 197px;
+    width: 205px;
     padding: 8px;
     color: #720AC3;
     background-color: #ffffff;
