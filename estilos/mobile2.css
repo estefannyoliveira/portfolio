@@ -1,0 +1,33 @@
+@charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: var(--cor44);
+    font-family: var(--font-padrao);
+    
+}
+
+header{
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+
+    text-align: center;
+    min-height: 50px;
+
+    padding: 10px;
+ 
+    
+}
+
+main{
+    padding: 20px;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px ;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.218);
+    background-color: white;
