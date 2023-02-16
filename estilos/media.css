@@ -42,7 +42,7 @@ section{
     min-height: 98%;
 }
 
-ul{
+header ul{
     font-size: 1.2em;
     max-width: 600px;
 }
@@ -51,7 +51,7 @@ ul{
     display:block ;
 }
 
-li:hover{
+header li:hover{
     color: #070707;
    
     font-size: 1.3em;
