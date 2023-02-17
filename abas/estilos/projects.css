@@ -137,7 +137,7 @@ figcaption{
 footer{
     margin-bottom: 0;
     background-color: #2C024D;
-    padding-bottom: .1px;
+    padding-top: .5em;
     text-align: center;
     margin: auto;
     display: flex;
