@@ -2,7 +2,7 @@
 
 /*Typical device Breakpoints*/
 
-@media screen and (min-width: 992px){
+@media screen and (min-width: 910px){
     header{
         margin-top: 10px;
         width: 100%;
