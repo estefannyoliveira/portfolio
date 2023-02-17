@@ -37,7 +37,6 @@ header{
 }
 
 nav{
-  
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -54,6 +53,7 @@ header ul{
     
 }
 header li{
+
     margin: 0px 12px;
     list-style: none;
     text-align: center;
@@ -169,18 +169,16 @@ a{
     transition: all .2s;
 }
 
-#sobre, #projetos, #formacao{
+#home, #sobre, #formacao{
     margin: 0;
     background-color: #000000;
 
     margin: 3em 0;
+    max-width: 330px
     
-    width: 330px;
-
 }
  p{
     margin: 0.9em 0;
-    text-indent: 20px;
     text-align: justify;
 }
 
@@ -191,24 +189,39 @@ a{
 
 }
 
-#sobre h1{
+#home h1{
     background-color:  #720AC3;
     border-radius: 15px;
     font-size: 1.7em;
 }
-#formacao > h1{
+#sobre h1{
     background-color: #720AC3;
     border-radius: 15px;
     font-size: 1.7em;
 
 }
-
-#projetos h1{
-    background-color: #720AC3;
+#formacao h1{
+    background-color: #2C024D;
     border-radius: 15px;
-    font-size: 1.7em;
-
+    font-size: 1.6em;
 }
+
+footer{
+    margin-bottom: 0;
+    background-color: #2C024D;
+    padding-bottom: .1px;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    
+}
+
+
+
 @media screen and (max-width: 339px){
     header ul{
         display: flex;
@@ -225,5 +238,9 @@ a{
         text-align: center;
         font-size: 0.2;
        
+    }
+
+    .textos{
+        width: 300px;
     }
 }
