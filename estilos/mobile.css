@@ -23,6 +23,7 @@ body, html{
     display:none ;
 }
 
+
 header{
     
     background-color: #000000;
@@ -219,7 +220,6 @@ footer{
     align-content: center;
     
 }
-
 
 
 @media screen and (max-width: 339px){

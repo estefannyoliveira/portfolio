@@ -169,7 +169,6 @@ footer{
         margin: 0;
         background-color: #000000;
     
-        margin: 3em 0;
         max-width: 300px
         
     }
@@ -179,6 +178,13 @@ footer{
     }
 
 }
+
+#voltarTopo{
+    background-color: #720AC3;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+ }
 
 @media screen and (min-width: 910px){
     header{
