@@ -5,7 +5,7 @@
 #voltarTopo{
     background-color: #720AC3;
     padding: 5px 10px;
-    border-radius: 10px;
+    border-radius: 5px;
     margin-bottom: 25px;
     
  }
@@ -119,6 +119,7 @@ main{
     width: 400px;
 }
 .btn:hover{
+    transform: scale(1.1);
     width: 400px;
     padding: 8px 0px; 
     font-size: 1.4em;
@@ -128,23 +129,16 @@ main{
 }
 .btn-contato{
     width: 195px;
-    margin-left: 10px;
 } 
 
 #git:hover{
-    width: 205px;
-    padding: 8px;
     color: #720AC3;
     background-color: #ffffff;
-    font-size: 1.1em;
     transition: all .2s;
 }
 #linkedin:hover{
-    width: 205px;
-    padding: 8px;
     color: #720AC3;
     background-color: #ffffff;
-    font-size: 1.1em;
     transition: all .2s;
 }
 #sobre, #home, #formacao{    
@@ -167,11 +161,19 @@ main{
 }
 #formacao h1{
     background-color: #2C024D;
-    border-radius: 15px;
+    border-radius: 5px;
     font-size: 1.6em;
 }
 p{
     margin: 0.2em 0;
 
 }
+}
+
+.init-hidden{
+    opacity: 0;
+    transition: all .6s linear;
+}
+    .init-hidden.init-visible{
+    opacity: 1;
 }
